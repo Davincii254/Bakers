@@ -1,19 +1,19 @@
 ## pizza-hub
 This is a programm that willallow aser to order a pizza of their liking and get to checkout.
 
-##Technologies Used:
+## Technologies Used:
 Jquery
 HTML & CSS (Bootstrap) 
 JavaScript
 
-##Set-up 
+## Set-up 
 Requirements JSFiddle or JavaScript Console
 
 Setup Instructions and Installation Clone this repository to a location in your file system. 'git clone https://github.com/Davincii254/pizza-hub Open terminal command line then navigate to the root folder of the application. cd DElani-studio Open index.html on your Browser.
 
-##Development 
+## Development 
 
-##Want to contribute? Great!
+## Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
 
@@ -21,11 +21,11 @@ Fork the repo Create a new branch (git checkout -b improve-feature) Make the app
 
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
-##Live Link
+## Live Link
 
 Link to Live Site : https://davincii254.github.io/pizza-hub/
 
-License
+## License
 
 MIT License
 
