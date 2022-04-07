@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+   
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+/* nav bar styling */
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+#navlist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav1 ul li{
+    display: inline;
+    padding: 10px;
+    font-weight: 700;
+   
+    
+    
+}
+.overlay{
+    position: relative;
+    color: #fff;
+    top: -40%;
+    left: 40%;
+    border: 50%;
+    border-radius: #EB9422;
+    transform: translate(48% -40%);
+
+    font-weight: 900;
+}
+.nav1 a{
+    font-size: 15px;
+}
+.nav1{
+    margin-top: 10px;
+}
+.logo h1{
+    font-size: 17px;
+    color: #55B167;
+    margin-top: 16px;
+    font-weight: 700;
+    
+}
+.cart li{
+    list-style: none;
+  
+}
+/* hero section styling */
+.discount{
+    background-color: #55B167;
+    width: 33%;
+    border-radius: 2px;
+}
+.discount p{
+    color: white;
+    font-size: 10px;
+    
+    
+    text-align: center;
+    
+}
+.col-sm-6 img{
+    height: 260px;
+    border-radius: 50px 0px 50px;
+    width: 320px;
+}
+#btn a{
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+
+}
+#btn{
+    height: 40px;
+    width: 30%;
+    background-color: #55B167;
+    color: #fff;
+    border-radius: 15px 0px 0px 0px;
+    
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #EB9422;
+    
+    
+}
+#hero .row{
+    margin-top: 50px;
+}
+/* about us section */
+#aboutus{
+    margin-top: 50px;
+}
+#aboutus img{
+    height: 50px;
+    width: 50px;
+}
+#aboutus h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+#aboutus p{
+    font-size: 10px;
+}
+#aboutus .col-6{
+    display: flex;
+}
+#us{
+    display: grid;
+    place-content: center;
+}
+/* menu section */
+#ourmenu .container{
+    margin-top: 50px;
+}
+.btn3{
+    display: grid;
+    place-content: center;
+}
+#btn3{
+    color: #fff;
+    background: #55B167;
+    border-radius: 5px;
+    margin: 20px;
+    border: 2px solid #55B167;
+    
+}
+
+#ourmenu h2{
+    font-size: 20px;
+    text-align: center;
+}
+#couresl img{
+    height: 200px;
+    width: 4px;
+    border-radius: 200px;
+    border: 5px solid #55B167;
+
+
+}
+#couresl h5{
+    color: #55B167;
+    font-weight: 700;
+}
+#couresl p{
+    color: #fff;
+    font-weight: 700;
+}
+.heading{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+.heading span{
+    color: #55B167;
+    text-decoration: underline;
+    text-decoration-color: #EB9422;
+    text-decoration-thickness: 6px;
+}
+.heading h1{
+    font-size: 29px;
+    margin: 30px;
+}
+#crust img{
+    width: 70%;
+    height: 35vh;
+    border-radius: 50%;
+}
+#topping img{
+    width: 70%;
+    height: 35vh;
+    border-radius: 50%;
+}
+.all{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.all select{
+    color: #55B167;
+   
+}
+/* order section */
+#display{
+   display: grid;
+   place-content: center;
+}
+#card1{
+    display: none;
+    margin-bottom: 20px;
+   
+    background-size: cover;
+}
+#display #ul{
+    color: #55B167;
+    display: grid;
+    place-content: center;
+    
+}
+.sumhead{
+    display: none;
+}
+.sumhead h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1382dd;
+    
+}
+.btn56{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    
+}
+#btn5{
+    display: none;
+}
+#delivery{
+    display: grid;
+    place-content: center;
+}
+.deliver{
+    display: none;
+}
+.btn7, .location{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    
+}
+#grand, #grand2{
+    color: #55B167;
+    font-size: 35px;
+    font-weight: 700;
+}
+#additional{
+    color: crimson;
+}
+.btn7{
+    display: flex;
+    gap: 3%;
+}
+#btn7, #btn8{
+    background-color: #1382dd;
+    color: #fff;
+    width: 50px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid #1382dd;
+}
+#btn5{
+    color: #fff;
+    background-color: #55B167;
+    border: 2px solid #55B167;
+    width: 90px;
+    height: 35px;
+    font-weight: 700;
+}
+#btn6, #btn9{
+    
+    color: #fff;
+    background-color: #55B167;
+    height: 38px;
+    width: 100px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #55B167;
+    margin: 1px;
+    display: none;
+    margin-bottom: 15px;
+}
+.checkbtns{
+    display: grid;
+    place-content: center;
+}
+
+/* reservation section */
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+#book{
+    display: grid;
+    place-content: center;
+    background-image: url("https://raw.githubusercontent.com/Olliemint/The-Baked-Oven/main/assets/booksection.jpg");
+    background-size: cover;
+}
+#book .card{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+.resv{
+    background-color: #55B167;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+.btn{
+    display: grid;
+    place-content: center;
+    margin-bottom: 20px;
+}
+#btn2{
+    color: #fff;
+    font-weight: 700;
+    background-color: #55B167;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.order1{
+    font-size: 15px;
+    text-align: center;
+}
+.card-subtitle{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 800;
+    text-decoration: underline;
+    
+}
+.bookform{
+    display: none;
+}
+#results{
+    color: #1382dd;
+}
+/* footer styling */
+.footer{
+    background-color: #E1E1E1;
+}
+#footer li,a{
+    text-decoration: none;
+    list-style: none;
+    color: #55B167;
+    font-size: 10px;
+    /* text-align: center; */
+    
+}
+.footer h1{
+    font-size: 15px;
+    font-weight: 700;
+    /* text-align: center; */
+    color: #EB9422;
+}
+#icons li{
+    display: inline-block;
+}
+.copyright{
+    display: grid;
+    place-content: center;
+}
+.copyright p{
+    font-size: 10px;
+}
+#fade{
+    display: none;
+}
+
+
+
+@media (max-width: 400px){
+    .overlay{
+        margin-top: 13px;
+      
+  }
+}
